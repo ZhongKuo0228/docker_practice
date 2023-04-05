@@ -1,0 +1,15 @@
+# 選擇映像檔
+FROM ubuntu:22.04
+
+# 基本資訊
+LABEL key="Zenv Express Server" 
+
+# 安裝nginx
+RUN apt update -y\
+    && apt install nginx -y
+
+#設定nginx使用的80 port
+EXPOSE 80
+
+# 啓動容器時要輸入的指令
+CMD ["nginx","-g","daemon off;"]

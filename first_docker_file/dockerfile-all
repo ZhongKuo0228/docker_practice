@@ -1,0 +1,50 @@
+# 選擇base映像檔
+FROM ubuntu:22.04
+
+# 基本資訊
+LABEL key="Zenv Express Server" 
+
+# 設定工作目錄 
+WORKDIR /app
+
+# 複製專案檔案至容器內
+##COPY . .
+
+# 安裝所需程式
+RUN apt update -y\
+    #&& apt install nginx -y\
+    && apt install mysql-server -y\ 
+    && apt install curl -y\
+    && curl -fsSL https://deb.nodesource.com/setup_18.x | bash -\
+    && apt install nodejs -y\
+    && apt install redis-server -y\
+    && apt install git -y\
+    && apt install vim -y
+
+# nginx 要設定對外開80，
+# 要設定80 port 轉 3000 對 express  
+##RUN echo "server {
+##    listen 80;
+##    location / {
+##        proxy_pass http://localhost:3000;
+##        proxy_set_header Host \$host;
+##        proxy_set_header X-Real-IP \$remote_addr;
+##        proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
+##    }
+##}" > /etc/nginx/sites-available/default
+
+# 創建 .env.example 檔案並寫入所需的資訊
+RUN echo "DATABASE_HOST=localhost\nDATABASE_USER=root\nDATABASE_PASSWORD=123456\nDATABASE_NAME=mydb" > .env.example
+# 設定 MySQL root 密碼
+RUN service mysql start && mysql -u root -e "ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';"
+
+# 設定 Redis 在背景執行
+#  Ubuntu 16.04 之後的版本中，Redis 已經改用 systemd 作為系統服務管理器，所以要將設定檔中的啟動方式改為 systemd。
+RUN sed -i 's/supervised no/supervised systemd/g' /etc/redis/redis.conf
+
+# 開放所需的防火牆規則，讓外部可以連express的3000 port
+EXPOSE 3000/tcp
+
+# docker run時要啓動的程式，但目前指令沒有作用？
+##CMD [service mysql start && service redis-server start && nginx -g "daemon off;"]
+CMD ["service mysql start && service redis-server start"] 
