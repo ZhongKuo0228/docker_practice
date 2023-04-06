@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+    zenv-express:
+        image: node/node-express
+        environment:
+            - REDIS_HOST=redis-server
+        networks:
+            - Zenv-network
+        ports:
+            - 3000
+        volumes:
+            - "./express-example:/usr/src/app"
+
+    redis-server:
+        image: redis:7-alpine
+        networks:
+            - Zenv-network
+
+networks:
+    Zenv-network:

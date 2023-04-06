@@ -6,6 +6,7 @@ services:
         image: zenv-express
         environment:
             - REDIS_HOST=redis-server
+            - MYSQL_HOST=mysql-server
         networks:
             - Zenv-network
         ports:
@@ -25,5 +26,6 @@ services:
             - Zenv-network
         volumes:
             - ./express-example/mysql:/docker-entrypoint-initdb.d
+
 networks:
     Zenv-network:
