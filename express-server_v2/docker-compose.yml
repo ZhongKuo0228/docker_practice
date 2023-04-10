@@ -7,6 +7,7 @@ services:
             - REDIS_HOST=redis-server
         networks:
             - Zenv-network
+        #不指定外部訪問的port，讓系統自動分配
         ports:
             - 3000
         volumes:
