@@ -1,0 +1,476 @@
+express-server_v3_logagent-zenv-express-1  | SQLite connected successfully
+express-server_v3_logagent-zenv-express-1  | Running on http://0.0.0.0:3000
+express-server_v3_logagent-zenv-express-1  | Connected to Redis
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: connect ETIMEDOUT
+express-server_v3_logagent-zenv-express-1  |     at Socket.<anonymous> (/usr/src/app/node_modules/ioredis/built/Redis.js:170:41)
+express-server_v3_logagent-zenv-express-1  |     at Object.onceWrapper (node:events:627:28)
+express-server_v3_logagent-zenv-express-1  |     at Socket.emit (node:events:513:28)
+express-server_v3_logagent-zenv-express-1  |     at Socket._onTimeout (node:net:570:8)
+express-server_v3_logagent-zenv-express-1  |     at listOnTimeout (node:internal/timers:569:17)
+express-server_v3_logagent-zenv-express-1  |     at process.processTimers (node:internal/timers:512:7) {
+express-server_v3_logagent-zenv-express-1  |   errorno: 'ETIMEDOUT',
+express-server_v3_logagent-zenv-express-1  |   code: 'ETIMEDOUT',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'connect'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Connected to Redis
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: connect ETIMEDOUT
+express-server_v3_logagent-zenv-express-1  |     at Socket.<anonymous> (/usr/src/app/node_modules/ioredis/built/Redis.js:170:41)
+express-server_v3_logagent-zenv-express-1  |     at Object.onceWrapper (node:events:627:28)
+express-server_v3_logagent-zenv-express-1  |     at Socket.emit (node:events:513:28)
+express-server_v3_logagent-zenv-express-1  |     at Socket._onTimeout (node:net:570:8)
+express-server_v3_logagent-zenv-express-1  |     at listOnTimeout (node:internal/timers:569:17)
+express-server_v3_logagent-zenv-express-1  |     at process.processTimers (node:internal/timers:512:7) {
+express-server_v3_logagent-zenv-express-1  |   errorno: 'ETIMEDOUT',
+express-server_v3_logagent-zenv-express-1  |   code: 'ETIMEDOUT',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'connect'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Error connecting to Redis:  Error: getaddrinfo ENOTFOUND redis-server
+express-server_v3_logagent-zenv-express-1  |     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+express-server_v3_logagent-zenv-express-1  |   errno: -3008,
+express-server_v3_logagent-zenv-express-1  |   code: 'ENOTFOUND',
+express-server_v3_logagent-zenv-express-1  |   syscall: 'getaddrinfo',
+express-server_v3_logagent-zenv-express-1  |   hostname: 'redis-server'
+express-server_v3_logagent-zenv-express-1  | }
+express-server_v3_logagent-zenv-express-1  | Connected to Redis
+express-server_v3_logagent-zenv-express-1 exited with code 137
