@@ -1,0 +1,37 @@
+version: "3.8"
+
+services:
+    zenv-express:
+        image: node/node-express
+        environment:
+            - REDIS_HOST=redis-server
+        networks:
+            - Zenv-network
+        ports:
+            - 3000
+        volumes:
+            - "./express-example:/usr/src/app"
+        # Ram限制64~256mb，vCpu：0.5
+        deploy:
+            resources:
+                limits:
+                    cpus: "0.5"
+                    memory: 128M
+                reservations:
+                    memory: 64M
+
+    redis-server:
+        image: redis:7-alpine
+        networks:
+            - Zenv-network
+        ports:
+            - 6379
+        # Ram限制64mb，vCpu：0.5
+        deploy:
+            resources:
+                limits:
+                    cpus: "0.25"
+                    memory: 16M
+
+networks:
+    Zenv-network:
